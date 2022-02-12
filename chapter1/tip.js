@@ -6,4 +6,8 @@ if (window.ethereum) {
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+
+  if (!window.ethereum) {
+    alert("Please install a wallet.");
+  }
 });
