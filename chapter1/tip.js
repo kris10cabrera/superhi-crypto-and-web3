@@ -17,7 +17,7 @@ const send = async (amount) => {
       params: [
         {
           from: accounts[0],
-          to: "0x8A05fA58d533a6e40C4381E3247Cf4c68ca61cdc",
+          to: "0xheh...",
           value: hexxxdWei,
         },
       ],
